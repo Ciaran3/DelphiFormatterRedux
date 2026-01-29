@@ -89,7 +89,7 @@ Restart Delphi for changes to take effect.
 
 ## Limitations
 
-- Apply the code formatting **saves the active file immediately**.
+- Applying the code formatting **saves the active file immediately**.
 
 ---
 
@@ -120,3 +120,5 @@ All other trademarks are the property of their respective owners.
 Feedback, bug reports, and pull requests are welcome.
 
 Please open an issue or submit a pull request on GitHub.
+
+---
