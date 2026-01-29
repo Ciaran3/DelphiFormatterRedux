@@ -7,21 +7,12 @@
 *.bpl
 *.dcp
 *.map
-*.rsm
-*.tds
-*.apk
-*.ipa
 
 ############################################
 # Delphi package output directories
 ############################################
 Win32/
 Win64/
-Android/
-Android64/
-iOSDevice64/
-OSX64/
-Linux64/
 Output/
 
 ############################################
@@ -53,11 +44,10 @@ __history/
 ############################################
 # Formatter binaries
 ############################################
-# Formatter.exe
+Formatter.exe
 
 ############################################
 # OS / tooling noise
 ############################################
 .DS_Store
 Thumbs.db
-ehthumbs.db
