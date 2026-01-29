@@ -2,10 +2,11 @@
 [![Delphi Version](https://img.shields.io/badge/Delphi-13+-orange.svg)]()
 [![Formatter](https://img.shields.io/badge/Formatter-CTRL%2BD-green.svg)]()
 
-# DelphiFormatterRedux
+# Delphi Formatter Redux
 
 **Bring back the classic CTRL + D code formatting workflow** — just like the good old days (pre‑Delphi 13).  
-**DelphiFormatterRedux** lets you apply your existing Delphi code formatting template with a single key combination inside the Delphi IDE.
+
+**Delphi Formatter Redux** lets you apply your existing Delphi code formatting template with a single key combination inside the Delphi IDE.
 
 ---
 
@@ -15,14 +16,10 @@ Starting with **Delphi 13**, Embarcadero removed the built‑in code formatter a
 
 This removal caused significant frustration in the Delphi community — especially for long‑time users who built their workflow around the original formatter’s behaviour.
 
----
-
-## Inspiration
-
 This project was inspired by community discussion and feedback:
 
 - https://corneliusconcepts.tech/code-formatting-delphi-13  
-- https://delphichops.vydevsoft.com/delphi-formatter-redux/
+- https://delphichops.vydevsoft.com/delphi-formatter-redux
 
 ---
 
@@ -38,8 +35,10 @@ This project was inspired by community discussion and feedback:
 ## Requirements
 
 - **Delphi 13**
-- **formatter.exe** — must be obtained from an older Delphi installation (for example, Delphi 12)  
+- **formatter.exe** — This must be obtained from an older Delphi installation (for example, Delphi 12)  
   > This executable is **not included** in this repository.
+  > 
+  > By default it will be located at: C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
 - A Delphi formatting template file (`.config`)
 
 ---
@@ -72,7 +71,7 @@ Your configured Delphi formatting template will be applied to the active editor 
 
 By default, the standard configuration is used.
 
-To customise file locations or filenames, navigate to:
+To customise the location of **formatter.exe** or **Formatter.config**, navigate to:
 
 ```
 %APPDATA%\DelphiFormatterRedux
@@ -90,7 +89,7 @@ Restart Delphi for changes to take effect.
 
 ## Limitations
 
-- Formatting **modifies and saves the active file immediately**.
+- Apply the code formatting **saves the active file immediately**.
 
 ---
 
